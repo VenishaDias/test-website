@@ -1,8 +1,10 @@
 .icons{
-    width:100px;
+    width:150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size:23px;
+    
     
 
 
@@ -39,8 +41,9 @@ body
     margin:0px;
     padding:0px;
     font-family: 'Poppins', sans-serif;
-    background-image: url('/images/background.jpg');
+    background-image: url('/images/bg.jpg');
     background-size:cover;
+    color:#ffe;
     
 }
 
@@ -56,6 +59,17 @@ body
 
 
 @media only screen and (max-width:600px)
+{
+    .content{
+        width:100%;
+    }
+
+    .content >h1 {
+        font-size:26px;
+    }
+}
+
+@media only screen and (max-width:1024px)
 {
     .content{
         width:100%;
